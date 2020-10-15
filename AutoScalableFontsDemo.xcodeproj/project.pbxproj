@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6285CAD2538C2BD006E4938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CAC2538C2BD006E4938 /* AppDelegate.swift */; };
+		E6285CB12538C2BD006E4938 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CB02538C2BD006E4938 /* ViewController.swift */; };
+		E6285CB42538C2BD006E4938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6285CB22538C2BD006E4938 /* Main.storyboard */; };
+		E6285CB62538C2BF006E4938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6285CB52538C2BF006E4938 /* Assets.xcassets */; };
+		E6285CB92538C2BF006E4938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6285CB72538C2BF006E4938 /* LaunchScreen.storyboard */; };
+		E6285CCA2538C2CC006E4938 /* AutoScalableFonts.h in Headers */ = {isa = PBXBuildFile; fileRef = E6285CC82538C2CC006E4938 /* AutoScalableFonts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6285CCD2538C2CC006E4938 /* AutoScalableFonts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */; };
+		E6285CCE2538C2CC006E4938 /* AutoScalableFonts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E6285CD72538C2F3006E4938 /* UILabel+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CD62538C2F3006E4938 /* UILabel+ScalableFonts.swift */; };
+		E6285CDA2538C300006E4938 /* ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CD92538C300006E4938 /* ScalableFonts.swift */; };
+		E6285CDE2538C556006E4938 /* NSObject+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CDD2538C556006E4938 /* NSObject+ScalableFonts.swift */; };
+		E6285CE32538D1D4006E4938 /* UIFont+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CE22538D1D4006E4938 /* UIFont+ScalableFonts.swift */; };
+		E6285CE72538D4B0006E4938 /* FontUpdateBlockWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CE62538D4B0006E4938 /* FontUpdateBlockWrapper.swift */; };
+		E6285CEE2538F108006E4938 /* UITextView+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CED2538F108006E4938 /* UITextView+ScalableFonts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6285CCB2538C2CC006E4938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6285CA12538C2BD006E4938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6285CC52538C2CC006E4938;
+			remoteInfo = AutoScalableFonts;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E6285CD22538C2CC006E4938 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E6285CCE2538C2CC006E4938 /* AutoScalableFonts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E6285CA92538C2BD006E4938 /* AutoScalableFontsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoScalableFontsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6285CAC2538C2BD006E4938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6285CB02538C2BD006E4938 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6285CB32538C2BD006E4938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6285CB52538C2BF006E4938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6285CB82538C2BF006E4938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6285CBA2538C2BF006E4938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoScalableFonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6285CC82538C2CC006E4938 /* AutoScalableFonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoScalableFonts.h; sourceTree = "<group>"; };
+		E6285CC92538C2CC006E4938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6285CD62538C2F3006E4938 /* UILabel+ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ScalableFonts.swift"; sourceTree = "<group>"; };
+		E6285CD92538C300006E4938 /* ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalableFonts.swift; sourceTree = "<group>"; };
+		E6285CDD2538C556006E4938 /* NSObject+ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ScalableFonts.swift"; sourceTree = "<group>"; };
+		E6285CE22538D1D4006E4938 /* UIFont+ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+ScalableFonts.swift"; sourceTree = "<group>"; };
+		E6285CE62538D4B0006E4938 /* FontUpdateBlockWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontUpdateBlockWrapper.swift; sourceTree = "<group>"; };
+		E6285CED2538F108006E4938 /* UITextView+ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+ScalableFonts.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6285CA62538C2BD006E4938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6285CCD2538C2CC006E4938 /* AutoScalableFonts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6285CC32538C2CC006E4938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6285CA02538C2BD006E4938 = {
+			isa = PBXGroup;
+			children = (
+				E6285CAB2538C2BD006E4938 /* AutoScalableFontsDemo */,
+				E6285CC72538C2CC006E4938 /* AutoScalableFonts */,
+				E6285CAA2538C2BD006E4938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6285CAA2538C2BD006E4938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6285CA92538C2BD006E4938 /* AutoScalableFontsDemo.app */,
+				E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6285CAB2538C2BD006E4938 /* AutoScalableFontsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6285CAC2538C2BD006E4938 /* AppDelegate.swift */,
+				E6285CB02538C2BD006E4938 /* ViewController.swift */,
+				E6285CB22538C2BD006E4938 /* Main.storyboard */,
+				E6285CB52538C2BF006E4938 /* Assets.xcassets */,
+				E6285CB72538C2BF006E4938 /* LaunchScreen.storyboard */,
+				E6285CBA2538C2BF006E4938 /* Info.plist */,
+			);
+			path = AutoScalableFontsDemo;
+			sourceTree = "<group>";
+		};
+		E6285CC72538C2CC006E4938 /* AutoScalableFonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6285CE52538D48C006E4938 /* Classes */,
+				E6285CD52538C2D4006E4938 /* Extensions */,
+				E6285CD32538C2D0006E4938 /* Protocols */,
+				E6285CC82538C2CC006E4938 /* AutoScalableFonts.h */,
+				E6285CC92538C2CC006E4938 /* Info.plist */,
+			);
+			path = AutoScalableFonts;
+			sourceTree = "<group>";
+		};
+		E6285CD32538C2D0006E4938 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E6285CD92538C300006E4938 /* ScalableFonts.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E6285CD52538C2D4006E4938 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6285CED2538F108006E4938 /* UITextView+ScalableFonts.swift */,
+				E6285CD62538C2F3006E4938 /* UILabel+ScalableFonts.swift */,
+				E6285CDD2538C556006E4938 /* NSObject+ScalableFonts.swift */,
+				E6285CE22538D1D4006E4938 /* UIFont+ScalableFonts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E6285CE52538D48C006E4938 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E6285CE62538D4B0006E4938 /* FontUpdateBlockWrapper.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E6285CC12538C2CC006E4938 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6285CCA2538C2CC006E4938 /* AutoScalableFonts.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E6285CA82538C2BD006E4938 /* AutoScalableFontsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6285CBD2538C2BF006E4938 /* Build configuration list for PBXNativeTarget "AutoScalableFontsDemo" */;
+			buildPhases = (
+				E6285CA52538C2BD006E4938 /* Sources */,
+				E6285CA62538C2BD006E4938 /* Frameworks */,
+				E6285CA72538C2BD006E4938 /* Resources */,
+				E6285CD22538C2CC006E4938 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6285CCC2538C2CC006E4938 /* PBXTargetDependency */,
+			);
+			name = AutoScalableFontsDemo;
+			productName = AutoScalableFontsDemo;
+			productReference = E6285CA92538C2BD006E4938 /* AutoScalableFontsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6285CC52538C2CC006E4938 /* AutoScalableFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6285CCF2538C2CC006E4938 /* Build configuration list for PBXNativeTarget "AutoScalableFonts" */;
+			buildPhases = (
+				E6285CC12538C2CC006E4938 /* Headers */,
+				E6285CC22538C2CC006E4938 /* Sources */,
+				E6285CC32538C2CC006E4938 /* Frameworks */,
+				E6285CC42538C2CC006E4938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoScalableFonts;
+			productName = AutoScalableFonts;
+			productReference = E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6285CA12538C2BD006E4938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E6285CA82538C2BD006E4938 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E6285CC52538C2CC006E4938 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = E6285CA42538C2BD006E4938 /* Build configuration list for PBXProject "AutoScalableFontsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6285CA02538C2BD006E4938;
+			productRefGroup = E6285CAA2538C2BD006E4938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6285CA82538C2BD006E4938 /* AutoScalableFontsDemo */,
+				E6285CC52538C2CC006E4938 /* AutoScalableFonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6285CA72538C2BD006E4938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6285CB92538C2BF006E4938 /* LaunchScreen.storyboard in Resources */,
+				E6285CB62538C2BF006E4938 /* Assets.xcassets in Resources */,
+				E6285CB42538C2BD006E4938 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6285CC42538C2CC006E4938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6285CA52538C2BD006E4938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6285CB12538C2BD006E4938 /* ViewController.swift in Sources */,
+				E6285CAD2538C2BD006E4938 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6285CC22538C2CC006E4938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6285CDE2538C556006E4938 /* NSObject+ScalableFonts.swift in Sources */,
+				E6285CEE2538F108006E4938 /* UITextView+ScalableFonts.swift in Sources */,
+				E6285CE72538D4B0006E4938 /* FontUpdateBlockWrapper.swift in Sources */,
+				E6285CD72538C2F3006E4938 /* UILabel+ScalableFonts.swift in Sources */,
+				E6285CE32538D1D4006E4938 /* UIFont+ScalableFonts.swift in Sources */,
+				E6285CDA2538C300006E4938 /* ScalableFonts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6285CCC2538C2CC006E4938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6285CC52538C2CC006E4938 /* AutoScalableFonts */;
+			targetProxy = E6285CCB2538C2CC006E4938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6285CB22538C2BD006E4938 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6285CB32538C2BD006E4938 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6285CB72538C2BF006E4938 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6285CB82538C2BF006E4938 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6285CBB2538C2BF006E4938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6285CBC2538C2BF006E4938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6285CBE2538C2BF006E4938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDMP88D4M;
+				INFOPLIST_FILE = AutoScalableFontsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.AutoScalableFontsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6285CBF2538C2BF006E4938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GSDMP88D4M;
+				INFOPLIST_FILE = AutoScalableFontsDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.AutoScalableFontsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6285CD02538C2CC006E4938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GSDMP88D4M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AutoScalableFonts/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.AutoScalableFonts;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6285CD12538C2CC006E4938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = GSDMP88D4M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AutoScalableFonts/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.AutoScalableFonts;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6285CA42538C2BD006E4938 /* Build configuration list for PBXProject "AutoScalableFontsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6285CBB2538C2BF006E4938 /* Debug */,
+				E6285CBC2538C2BF006E4938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6285CBD2538C2BF006E4938 /* Build configuration list for PBXNativeTarget "AutoScalableFontsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6285CBE2538C2BF006E4938 /* Debug */,
+				E6285CBF2538C2BF006E4938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6285CCF2538C2CC006E4938 /* Build configuration list for PBXNativeTarget "AutoScalableFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6285CD02538C2CC006E4938 /* Debug */,
+				E6285CD12538C2CC006E4938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6285CA12538C2BD006E4938 /* Project object */;
+}
