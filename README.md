@@ -43,7 +43,7 @@ Or using the Interface Builder:
 ![Interface Builder](/Screenshots/Interface-Builder.png)
 
 
-#### :earth_india: Define global auto scaling
+#### :earth_asia: Define global auto scaling
 
 ⚠️ - Be careful when using this one as it literally scales all the instances of **`UILabel`** and **`UITextView`** from your app, even the unobvious labels or text views in the system controls and components.
 
