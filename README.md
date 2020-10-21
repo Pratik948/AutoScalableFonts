@@ -2,7 +2,7 @@
 
 [![Twitter URL](https://img.shields.io/twitter/url?label=Pratik%20Jamariya&style=social&url=https%3A%2F%2Ftwitter.com%2Fpratikjamariya)](https://twitter.com/pratikjamariya)
 
-This library is written in pure swift and takes reference from [AMXFontAutoScale](https://github.com/alexmx/AMXFontAutoScale)
+This library is written in swift and takes reference from [AMXFontAutoScale](https://github.com/alexmx/AMXFontAutoScale)
 
 Scale the font for **`UILabel`** and **`UITextView`** proportionally across all the screen sizes. Just define the screen size to be used as reference for scaling and the library will update all the instances of the **`UILabel`** and **`UITextView`** automatically.
 
