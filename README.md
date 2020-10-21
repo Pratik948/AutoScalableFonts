@@ -1,6 +1,6 @@
 # AutoScalableFonts
 
-![Twitter URL](https://img.shields.io/twitter/url?label=Pratik%20Jamariya&style=social&url=https%3A%2F%2Ftwitter.com%2Fpratikjamariya)
+[![Twitter URL](https://img.shields.io/twitter/url?label=Pratik%20Jamariya&style=social&url=https%3A%2F%2Ftwitter.com%2Fpratikjamariya)](https://twitter.com/pratikjamariya)
 
 This library is written in pure swift and takes reference from [AMXFontAutoScale](https://github.com/alexmx/AMXFontAutoScale)
 
