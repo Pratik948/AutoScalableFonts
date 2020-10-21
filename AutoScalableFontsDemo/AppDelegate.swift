@@ -22,6 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // this disbales auto scaling for this particular label, you can also disable auto scaling from interface builder
         // Keep in mind that if you set this property to true and add it to superview its font will be scallsced and cant be reverted.
         label.autoScaleEnabled = false
+        label.referenceSize = .size320
         return true
     }
 
