@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // This makes whole app's label font to scale, including default control fonts like buttons, navigation item title, bar button item title
-        UILabel.initiateScalableFonts(enabled: true, referenceSize: UIScreen.main.bounds.width == 320 ? .size320 : .size375)
+        UILabel.initiateScalableFonts(enabled: true, referenceSize: .size375)
         UITextView.initiateScalableFonts(enabled: true, referenceSize: UIScreen.main.bounds.width == 320 ? .size320 : .size375)
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 15)
