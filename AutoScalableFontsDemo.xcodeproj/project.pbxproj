@@ -12,26 +12,7 @@
 		E6285CB42538C2BD006E4938 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6285CB22538C2BD006E4938 /* Main.storyboard */; };
 		E6285CB62538C2BF006E4938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6285CB52538C2BF006E4938 /* Assets.xcassets */; };
 		E6285CB92538C2BF006E4938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6285CB72538C2BF006E4938 /* LaunchScreen.storyboard */; };
-		E6285CCA2538C2CC006E4938 /* AutoScalableFonts.h in Headers */ = {isa = PBXBuildFile; fileRef = E6285CC82538C2CC006E4938 /* AutoScalableFonts.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E6285CCD2538C2CC006E4938 /* AutoScalableFonts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */; };
-		E6285CCE2538C2CC006E4938 /* AutoScalableFonts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E6285CD72538C2F3006E4938 /* UILabel+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CD62538C2F3006E4938 /* UILabel+ScalableFonts.swift */; };
-		E6285CDA2538C300006E4938 /* ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CD92538C300006E4938 /* ScalableFonts.swift */; };
-		E6285CDE2538C556006E4938 /* NSObject+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CDD2538C556006E4938 /* NSObject+ScalableFonts.swift */; };
-		E6285CE32538D1D4006E4938 /* UIFont+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CE22538D1D4006E4938 /* UIFont+ScalableFonts.swift */; };
-		E6285CE72538D4B0006E4938 /* FontUpdateBlockWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CE62538D4B0006E4938 /* FontUpdateBlockWrapper.swift */; };
-		E6285CEE2538F108006E4938 /* UITextView+ScalableFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6285CED2538F108006E4938 /* UITextView+ScalableFonts.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E6285CCB2538C2CC006E4938 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6285CA12538C2BD006E4938 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6285CC52538C2CC006E4938;
-			remoteInfo = AutoScalableFonts;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		E6285CD22538C2CC006E4938 /* Embed Frameworks */ = {
@@ -40,7 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E6285CCE2538C2CC006E4938 /* AutoScalableFonts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,9 +35,6 @@
 		E6285CB52538C2BF006E4938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6285CB82538C2BF006E4938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6285CBA2538C2BF006E4938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AutoScalableFonts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6285CC82538C2CC006E4938 /* AutoScalableFonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoScalableFonts.h; sourceTree = "<group>"; };
-		E6285CC92538C2CC006E4938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6285CD62538C2F3006E4938 /* UILabel+ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+ScalableFonts.swift"; sourceTree = "<group>"; };
 		E6285CD92538C300006E4938 /* ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScalableFonts.swift; sourceTree = "<group>"; };
 		E6285CDD2538C556006E4938 /* NSObject+ScalableFonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ScalableFonts.swift"; sourceTree = "<group>"; };
@@ -68,14 +45,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		E6285CA62538C2BD006E4938 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6285CCD2538C2CC006E4938 /* AutoScalableFonts.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6285CC32538C2CC006E4938 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				E6285CA92538C2BD006E4938 /* AutoScalableFontsDemo.app */,
-				E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,8 +90,6 @@
 				E6285CE52538D48C006E4938 /* Classes */,
 				E6285CD52538C2D4006E4938 /* Extensions */,
 				E6285CD32538C2D0006E4938 /* Protocols */,
-				E6285CC82538C2CC006E4938 /* AutoScalableFonts.h */,
-				E6285CC92538C2CC006E4938 /* Info.plist */,
 			);
 			path = AutoScalableFonts;
 			sourceTree = "<group>";
@@ -157,17 +123,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		E6285CC12538C2CC006E4938 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6285CCA2538C2CC006E4938 /* AutoScalableFonts.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
 		E6285CA82538C2BD006E4938 /* AutoScalableFontsDemo */ = {
 			isa = PBXNativeTarget;
@@ -181,30 +136,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				E6285CCC2538C2CC006E4938 /* PBXTargetDependency */,
 			);
 			name = AutoScalableFontsDemo;
 			productName = AutoScalableFontsDemo;
 			productReference = E6285CA92538C2BD006E4938 /* AutoScalableFontsDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		E6285CC52538C2CC006E4938 /* AutoScalableFonts */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6285CCF2538C2CC006E4938 /* Build configuration list for PBXNativeTarget "AutoScalableFonts" */;
-			buildPhases = (
-				E6285CC12538C2CC006E4938 /* Headers */,
-				E6285CC22538C2CC006E4938 /* Sources */,
-				E6285CC32538C2CC006E4938 /* Frameworks */,
-				E6285CC42538C2CC006E4938 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = AutoScalableFonts;
-			productName = AutoScalableFonts;
-			productReference = E6285CC62538C2CC006E4938 /* AutoScalableFonts.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -217,10 +153,6 @@
 				TargetAttributes = {
 					E6285CA82538C2BD006E4938 = {
 						CreatedOnToolsVersion = 12.0;
-					};
-					E6285CC52538C2CC006E4938 = {
-						CreatedOnToolsVersion = 12.0;
-						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -238,7 +170,6 @@
 			projectRoot = "";
 			targets = (
 				E6285CA82538C2BD006E4938 /* AutoScalableFontsDemo */,
-				E6285CC52538C2CC006E4938 /* AutoScalableFonts */,
 			);
 		};
 /* End PBXProject section */
@@ -254,13 +185,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6285CC42538C2CC006E4938 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -273,28 +197,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6285CC22538C2CC006E4938 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6285CDE2538C556006E4938 /* NSObject+ScalableFonts.swift in Sources */,
-				E6285CEE2538F108006E4938 /* UITextView+ScalableFonts.swift in Sources */,
-				E6285CE72538D4B0006E4938 /* FontUpdateBlockWrapper.swift in Sources */,
-				E6285CD72538C2F3006E4938 /* UILabel+ScalableFonts.swift in Sources */,
-				E6285CE32538D1D4006E4938 /* UIFont+ScalableFonts.swift in Sources */,
-				E6285CDA2538C300006E4938 /* ScalableFonts.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E6285CCC2538C2CC006E4938 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E6285CC52538C2CC006E4938 /* AutoScalableFonts */;
-			targetProxy = E6285CCB2538C2CC006E4938 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E6285CB22538C2BD006E4938 /* Main.storyboard */ = {
@@ -474,65 +377,6 @@
 			};
 			name = Release;
 		};
-		E6285CD02538C2CC006E4938 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GSDMP88D4M;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AutoScalableFonts/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.AutoScalableFonts;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E6285CD12538C2CC006E4938 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = GSDMP88D4M;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = AutoScalableFonts/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.pratik.AutoScalableFonts;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -550,15 +394,6 @@
 			buildConfigurations = (
 				E6285CBE2538C2BF006E4938 /* Debug */,
 				E6285CBF2538C2BF006E4938 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6285CCF2538C2CC006E4938 /* Build configuration list for PBXNativeTarget "AutoScalableFonts" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6285CD02538C2CC006E4938 /* Debug */,
-				E6285CD12538C2CC006E4938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
